@@ -1,4 +1,4 @@
-class Solution:
+class Solution: #Beats 98.99% in memory usage
     def findRotation(self, mat: List[List[int]], target: List[List[int]]) -> bool:
         for i in range(4):
             if mat == target:
